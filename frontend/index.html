@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Cardápio da Lanchonete</title>
+<link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+<header class="container">
+<h1>Lanchonete do Bairro</h1>
+<div class="filters">
+<input id="busca" type="search" placeholder="Buscar por nome..." />
+<select id="filtroCategoria">
+<option value="">Todas as categorias</option>
+<option value="lanches">Lanches</option>
+<option value="bebidas">Bebidas</option>
+<option value="doces">Doces</option>
+</select>
+</div>
+</header>
+
+
+<main class="grid">
+<section class="cardapio">
+<h2>Cardápio</h2>
+<div id="listaItens" class="itens"></div>
+</section>
+
+
+<aside class="carrinho">
+<h2>Carrinho</h2>
+<div id="listaCarrinho"></div>
+<div class="total">
+<span>Total:</span>
+<strong id="totalGeral">R$ 0,00</strong>
+</div>
+<form id="formPedido" class="pedido">
+<input id="nomeCliente" type="text" placeholder="Seu nome" required />
+<textarea id="observacoes" placeholder="Observações (ex: sem cebola)"></textarea>
+<button type="submit">Enviar pedido</button>
+</form>
+<p id="msg" class="msg" role="status" aria-live="polite"></p>
+</aside>
+</main>
+
+
+<footer class="container">
+<small>© 2025 Lanchonete do Bairro</small>
+</footer>
+
+
+<script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "P1758716492822",
+    "dataISO": "2025-09-24T12:21:32.822Z",
+    "nomeCliente": "Lucas",
+    "observacoes": "",
+    "itens": [
+      {
+        "id": "1",
+        "nome": "X-Burguer",
+        "quantidade": 1,
+        "precoUnit": 18.9
+      },
+      {
+        "id": "4",
+        "nome": "Refrigerante Lata",
+        "quantidade": 1,
+        "precoUnit": 6.5
+      }
+    ],
+    "total": 25.4
+  },
+  {
+    "id": "P1758716981767",
+    "dataISO": "2025-09-24T12:29:41.767Z",
+    "nomeCliente": "Estagio",
+    "observacoes": "Lanche sem salada",
+    "itens": [
+      {
+        "id": "2",
+        "nome": "X-Salada",
+        "quantidade": 1,
+        "precoUnit": 20.5
+      },
+      {
+        "id": "5",
+        "nome": "Brigadeiro",
+        "quantidade": 1,
+        "precoUnit": 3.5
+      },
+      {
+        "id": "6",
+        "nome": "Pudim",
+        "quantidade": 1,
+        "precoUnit": 8
+      }
+    ],
+    "total": 32
+  }
+]
