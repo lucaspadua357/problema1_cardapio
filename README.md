@@ -13,7 +13,7 @@ Aplicação simples com frontend em **HTML/CSS/JS** e backend em **Node.js**.
 
 2. Inicie o servidor
    ```bash
-   npm run dev
+   npm start ou npm run dev
 
 3. Acesse no navegador 
    http://localhost:3000
